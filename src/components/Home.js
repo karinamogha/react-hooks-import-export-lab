@@ -1,4 +1,5 @@
 import React from "react";
+import User from "./../data/user"
 
 function Home() {
   return (
@@ -9,3 +10,10 @@ function Home() {
     </div>
   );
 }
+
+
+export const username = "Liza";
+export const city = "New York";
+export const image = "https://i.imgur.com/mV8PQxj.gif";
+
+export default Home;
